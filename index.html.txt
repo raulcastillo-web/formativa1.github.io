@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>GEOM-OS Terminal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="terminal">
+
+<h1>GEOM-OS SECURITY TERMINAL</h1>
+
+<p>> ENTER FINAL COORDINATES</p>
+
+<input id="answer" placeholder="(x,y) (x,y) (x,y)">
+
+<button onclick="checkAnswer()">EXECUTE</button>
+
+<p id="response"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
