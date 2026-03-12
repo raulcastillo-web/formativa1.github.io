@@ -25,6 +25,8 @@ response.innerHTML =
 },3000);
 
 }
+
 function goBack(){
 window.location.href = "index.html";
 }
+
